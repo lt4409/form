@@ -1,22 +1,23 @@
 body {
     display: flex;
+    flex-direction: row;
 }
 
 .container {
     position: relative;
-    color: black;
-    height:600px;
+    color: #000000;
+    height:400px;
     width: 200px;
 }
 
 .backgroundphoto {
-    height: 100%;
-    width: 25%;
+    height: 400px;
+    width: 200px;
 }
 
 .odin-logo {
     position: absolute;
-    height: 600px;
+    height: 50px;
     width: 200px;
     top: 25%;
     left: 0;
@@ -34,12 +35,43 @@ body {
 }
 
 .container-two {
-    width: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 325px;
     text-align: start;
-    margin-left: 20px;
-    margin-top: 60px;
+    padding-left: 20px;
+    padding-top: 60px;
+    background-color: #f2efef;
+    box-sizing: border-box;
 }
 
 p {
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container-three {
+    display: flex;  
+    flex-direction: row;
+    font-size: 7px;
+}
+
+form {
+    background-color: white;
+    padding-left: 20px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+legend {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.first-row,
+.second-row {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0 10px;
 }
