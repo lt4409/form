@@ -1,13 +1,22 @@
-img {
-    height: 400px;
-    width: 200px;
-}
-
 .container {
     position: relative;
     color: black;
     height: 400px;
     width: 200px;
+}
+
+.backgroundphoto {
+    height: 400px;
+    width: 200px;
+}
+
+.odin-logo {
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    top: 25%;
+    left: 0;
+    opacity: 0.8;
 }
 
 .text {
