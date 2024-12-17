@@ -69,9 +69,56 @@ legend {
     font-weight: bold;
 }
 
+input {
+    width: 120px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border: 1px solid red;
+} 
+
+input:focus {
+    border: 1px solid blue;
+}
+
 .first-row,
 .second-row {
     display: flex;
     flex-direction: column;
-    padding-right: 0 10px;
+    gap: 1px;
+    margin-top: 5px;
+}
+
+.first-row {
+    margin-right: 10px;
+}
+
+.container-four {
+    background-color: #f2efef;
+    height: 102px;
+}
+
+button {
+    background-color: #596D48;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+
+.log-in {
+    margin-left: 25px;
+    font-size: 10px;
+    font-weight: lighter;
+    
+}
+
+#log-in {
+    color: #596D48;
+    font-weight: 1000;
 }
