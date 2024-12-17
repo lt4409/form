@@ -1,18 +1,22 @@
+body {
+    display: flex;
+}
+
 .container {
     position: relative;
     color: black;
-    height: 400px;
+    height:600px;
     width: 200px;
 }
 
 .backgroundphoto {
-    height: 400px;
-    width: 200px;
+    height: 100%;
+    width: 25%;
 }
 
 .odin-logo {
     position: absolute;
-    height: 50px;
+    height: 600px;
     width: 200px;
     top: 25%;
     left: 0;
@@ -27,4 +31,15 @@
     white-space: nowrap;
     color: white;
     font-size: 8px;
+}
+
+.container-two {
+    width: 600px;
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+p {
+    font-size: 10px;
 }
