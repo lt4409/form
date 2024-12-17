@@ -1,0 +1,21 @@
+img {
+    height: 400px;
+    width: 200px;
+}
+
+.container {
+    position: relative;
+    color: black;
+    height: 400px;
+    width: 200px;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    color: white;
+    font-size: 8px;
+}
