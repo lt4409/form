@@ -40,8 +40,8 @@ body {
     width: 325px;
     text-align: start;
     padding-left: 20px;
-    padding-top: 60px;
-    background-color: #f2efef;
+    padding-top: 50px;
+    background-color: #f8f5f5;
     box-sizing: border-box;
 }
 
@@ -57,10 +57,10 @@ p {
 }
 
 form {
-    background-color: white;
     padding-left: 20px;
     margin-left: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
     padding-top: 10px;
 }
 
@@ -75,7 +75,7 @@ input {
     border-radius: 5px;
 }
 
-input:invalid {
+input:focus:invalid {
     border: 1px solid red;
 } 
 
@@ -96,8 +96,8 @@ input:focus {
 }
 
 .container-four {
-    background-color: #f2efef;
-    height: 102px;
+    background-color: #f8f5f5;
+    height: 103px;
 }
 
 button {
@@ -121,4 +121,17 @@ button {
 #log-in {
     color: #596D48;
     font-weight: 1000;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.you-know-you {
+    margin-top: 0px;
+}
+
+.container-five {
+    background-color: white;
+    box-shadow: 0px 10px 20px rgb(229, 229, 229);
 }
